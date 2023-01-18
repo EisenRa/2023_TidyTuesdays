@@ -10,3 +10,25 @@ gg_record(
   dpi = 300       # dpi to use when saving image
 )
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gg_playback(
+  name = file.path(tempdir(), "recording", "vignette_gif.gif"),
+  first_image_duration = 5,
+  last_image_duration = 15,
+  frame_duration = .4,
+  image_resize = 800
+)
