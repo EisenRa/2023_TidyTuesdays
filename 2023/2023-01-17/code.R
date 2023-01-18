@@ -11,6 +11,8 @@ gg_record(
 )
 
 
+# Read in the data:
+artists <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-17/artists.csv')
 
 
 
